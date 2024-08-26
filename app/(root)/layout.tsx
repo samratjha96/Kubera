@@ -1,8 +1,6 @@
 import MobileNav from "@/components/MobileNav";
 import Sidebar from "@/components/Sidebar";
 import { getLoggedInUser } from "@/lib/actions/users.actions";
-import type { Metadata } from "next";
-import { Inter, IBM_Plex_Serif } from "next/font/google";
 import Image from "next/image";
 import { redirect } from "next/navigation";
 
